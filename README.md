@@ -14,6 +14,7 @@ The main 4 files are (we list the require packages after the files):
   Users who do not have these installed on their machines could install these packages by pip (e.g. `pip install pinyin`).
   
   Our system currently could recommmend between Chinese names and English names. It's more challenging than we thought before to obtain data of name lists. We wrote a lot of programs to parse and refine the found data into the clean and formatted data for our needs. Other languages might be added to our system in the future.
+  We also prompt the user to enter their genders and number of recommendations they want.
   
  ## 1. By lexical similarity
 
