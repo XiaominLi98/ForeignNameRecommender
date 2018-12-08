@@ -17,7 +17,7 @@ The main 3 files are (we list the require packages after the files):
     We tried two methods to calculate the similarity (or distance) between names. One using "difflib", the other using "Levenshtein Algorithm" (or "Levenshtein Distance"). Finally we chose the latter since it works better at matching.
   
   ## By semantic similarity
-  2.Our recommender could also generate names by similarity of meanings of two name, which might be more useful for users. For example, for a Chinese name "李迅", the first name "迅" means "fast" in Chinese. Our system would recommend the following (we also output their meanings):
+  2. Our recommender could also generate names by similarity of meanings of two name, which might be more useful for users. For example, for a Chinese name "李迅", the first name "迅" means "fast" in Chinese. Our system would recommend the following (we also output their meanings):
     Name: 'Dashee'; meaning is:'One who is on fast'
     Name: 'Hartman'; meaning is:'Fast Runner'
     Name: 'Sherwinn'; meaning is:'He who is as fast as the wind'
