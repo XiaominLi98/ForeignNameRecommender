@@ -6,7 +6,6 @@ from smallHelperFunctions import isEnglish
 from bagOfWordsFunctions import getBadOfWords
 
 
-import difflib
 
 import colorama
 from colorama import Fore, Back, Style
@@ -234,7 +233,6 @@ file_name_female = open('Meaning/name_English_female.txt', 'r')
 file_meaning_male = open('Meaning/meaning_English_male.txt', 'r') 
 file_meaning_female = open('Meaning/meaning_English_female.txt', 'r') 
 
-print("````reading 4 english files done")
 
 names_male = []
 for line in file_name_male: 
@@ -242,7 +240,6 @@ for line in file_name_male:
 names_female = []
 for line in file_name_female: 
     names_female.append(line[:-1]) #-1 to get rid of the \n character
-print("names_male + names_male done!")
 
 
 meanings_male = []
@@ -251,14 +248,12 @@ for line in file_meaning_male:
 meanings_female = []
 for line in file_meaning_female: 
     meanings_female.append(line[:-1]) #-1 to get rid of the \n character
-print("meanings_male + meanings_female done!")
 
 file_name_male_ch = open('Meaning/name_Chinese_male.txt', 'r') 
 file_name_female_ch = open('Meaning/name_Chinese_female.txt', 'r') 
 
 file_meaning_male_ch = open('Meaning/meaning_Chinese_male.txt', 'r') 
 file_meaning_female_ch = open('Meaning/meaning_Chinese_female.txt', 'r') 
-print("````reading 4 chinese files done")
 
 
 names_male_ch = []
@@ -267,7 +262,6 @@ for line in file_name_male_ch:
 names_female_ch = []
 for line in file_name_female_ch: 
     names_female_ch.append(line[:-1]) #-1 to get rid of the \n character
-print("names_male_ch + names_female_ch done!")
 
 
 
@@ -277,7 +271,6 @@ for line in file_meaning_male_ch:
 meanings_female_ch = []
 for line in file_meaning_female_ch: 
     meanings_female_ch.append(line[:-1]) #-1 to get rid of the \n character
-print("meanings_male_ch + meanings_female_ch done!")
 
 
 # ===========================recommend meaning=====================================================================
