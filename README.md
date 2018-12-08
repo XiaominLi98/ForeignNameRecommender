@@ -3,13 +3,13 @@ A name generator which recommends foreign names in different languages.
 
 The main 4 files are (we list the require packages after the files): 
   
-  projectWithMeaning.py (requires: "colorama", and "Levenshtein")
+  _projectWithMeaning.py (requires: "colorama", and "Levenshtein")_
   
-  meaningFunctions.py ("nltk", "string", "numpy", and "sklearn")
+  _meaningFunctions.py ("nltk", "string", "numpy", and "sklearn")_
   
-  smallHelperFunctions.py ("pinyin", "argparse")
+  _smallHelperFunctions.py ("pinyin", "argparse")_
   
-  bagOfWordsFunctions.py ("metapy")
+  _bagOfWordsFunctions.py ("metapy")_
   
   Users who do not have these installed on their machines could install these packages by pip (e.g. `pip install pinyin`).
   
