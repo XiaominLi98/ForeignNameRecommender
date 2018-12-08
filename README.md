@@ -47,7 +47,7 @@ The main 4 files are (we list the require packages after the files):
    
      Similarly for generating Chinese names to an English name.
    
-   - We used three types of method trying to calculate the similarity of semantic meaning of two sentences (or words), and they are “sklearn”, “spacy”, and “gensim”. Finally we chose the “cosine_sim” function in “sklean” using “TfidfVectorizer” method in “sklearn.feature_extraction.text”. 
+   - We used three types of method trying to calculate the similarity of semantic meaning of two sentences (or words), and they are “sklearn”, “spacy”, and “gensim”. Finally we chose the “cosine_sim” function in “sklearn” using “TfidfVectorizer” method in “sklearn.feature_extraction.text”. 
   
   For more details on the instructions please refer to this video: ????.
   
