@@ -1,10 +1,14 @@
 # ForeignNameRecommender
 A name generator which recommends foreign names in different languages.
 
-The main 3 files are (we list the require packages after the files): 
+The main 4 files are (we list the require packages after the files): 
+  
   projectWithMeaning.py (requires: "colorama", and "Levenshtein")
+  
   meaningFunctions.py ("nltk", "string", "numpy", and "sklearn")
+  
   smallHelperFunctions.py ("pinyin", "argparse")
+  
   bagOfWordsFunctions.py ("metapy")
   
   Users who do not have these installed on their machines could install these packages by pip (e.g. `pip install pinyin`).
