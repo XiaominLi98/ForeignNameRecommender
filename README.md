@@ -35,7 +35,7 @@ A name generator which recommends foreign names in different languages.
    It's more challenging than we thought before to obtain data of name lists. We wrote a lot of programs to parse and refine the found data into the clean and formatted data for our needs. Other languages might be added to our system in the future.
 
 ## How it works
-  For the first function, we use lexical similarity to support transliteration between English and Chinese names, where we first convert Chinese characters into [pinyin](https://pypi.org/project/pinyin/). For the second function, we measure similarity of the meaning of names by calculating cosine similarity between names. 
+  For the first function, we use lexical similarity to support transliteration between English and Chinese names, where we first convert Chinese characters into [pinyin](https://en.wikipedia.org/wiki/Pinyin). For the second function, we measure similarity of the meaning of names by calculating cosine similarity between names. 
   
  ### 1. By lexical similarity
 
@@ -73,6 +73,7 @@ A name generator which recommends foreign names in different languages.
   For more details on this project please refer to this video: https://youtu.be/Y8Hzic45gdo
   
 ## Contribution of each team member
-
+  We split the tasks of the project and each team member did approximately equal amount of work. I (Jinyuan) did web scraping to find a large amount of Chinese and English names as our database, and Xiaomin and I together processed and cleaned the dataset. We worked together to search for methods of measuring the similarity of words, and Xiaomin coded the idea mostly. Xiaomin shot the [tutorial](https://youtu.be/Y8Hzic45gdo) (video demo) of this project, while I worked on writing the documentation of the project. And we wrote the tech review essay together. 
+  
   All rights reserved by Xiaomin Li (xiaomin3@illinois.edu) and Jinyuan Li (jinyuan2@illinois.edu).
   😄
