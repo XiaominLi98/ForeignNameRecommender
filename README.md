@@ -61,6 +61,7 @@ The main 4 files are (we list the require packages after the files):
       `python3 projectWithMeaning.py meaningFunctions.py smallHelperFunctions.py bagOfWordsFunctions.py`
       
       (If do not have python3, python might also work)
+   
    Note: if it shows error such as "haven't found module XXX", then it might be possible that we forgot to mention this package. Please install XXX package as well.
   
   All rights reserved by Xiaomin Li (xiaomin3@illinois.edu) and Jinyuan Li (jinyuan2@illinois.edu).
