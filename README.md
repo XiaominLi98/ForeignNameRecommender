@@ -1,6 +1,9 @@
 # ForeignNameRecommender
 A name generator which recommends foreign names in different languages.
 
+## Getting Started
+Download the project folder to your working directory. 
+
 The main 4 files are (we list the require packages after the files): 
   
   _projectWithMeaning.py (requires: "colorama", and "Levenshtein")_
@@ -11,11 +14,12 @@ The main 4 files are (we list the require packages after the files):
   
   _bagOfWordsFunctions.py ("metapy")_
   
-  Users who do not have these installed on their machines could install these packages by pip (e.g. `pip install pinyin`).
+  Users who do not have these packages (listed above: "colorma", "Levenshtein" and etc.) installed on their machines need to install them. It can be done by running pip install in terminal (e.g. `pip install pinyin`).
   
-  Our system currently could recommmend between Chinese names and English names. It's more challenging than we thought before to obtain data of name lists. We wrote a lot of programs to parse and refine the found data into the clean and formatted data for our needs. Other languages might be added to our system in the future.
-  We also prompt the user to enter their genders and number of recommendations they want.
-  
+## Overview of the function
+  Our system recommmend foreign names that have similar meanings to the input name. This project currently support two languages, Chinese and English. It asks user for an input name and gender and how many names he/she wants to be generated, then it recommends a number of names in which their meanings have the highest similarity with the input name.
+   It's more challenging than we thought before to obtain data of name lists. We wrote a lot of programs to parse and refine the found data into the clean and formatted data for our needs. Other languages might be added to our system in the future.
+
  ## 1. By lexical similarity
 
   - Our recommender could generate names by lexcial similarity of two names, which in some sense achieves to match names with similar sounds. _For example, a Chinese name "李然", represented as "Ran Li" in pinyin, would be matched to the following English names:_
