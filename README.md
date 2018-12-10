@@ -2,11 +2,10 @@
 A name generator which recommends foreign names in different languages.
 
 ## Getting Started
-Download the project folder to your working directory. 
 
-The main 4 files are (we list the require packages after the files): 
+  The main 4 files are (we list the require packages after the files): 
   
-  _projectWithMeaning.py (requires: "[colorama](https://pypi.org/project/colorama/)", and "[Levenshtein](https://pypi.org/project/python-Levenshtein/)")_
+  _projectWithMeaning.py (requires: "colorama", and "Levenshtein")_
   
   _meaningFunctions.py ("nltk", "string", "numpy", and "sklearn")_
   
@@ -16,7 +15,22 @@ The main 4 files are (we list the require packages after the files):
   
   Users who do not have these packages (listed above: "colorma", "Levenshtein" and etc.) installed on their machines need to install them. It can be done by running pip install in terminal (e.g. `pip install pinyin`).
   
-## Overview of the function
+  ### Usage Instructions:
+   1. Download the project folder to your working directory. 
+   
+   2. Install below packages: _"[colorama](https://pypi.org/project/colorama/)", "[Levenshtein](https://pypi.org/project/python-Levenshtein/)", "[nltk](https://www.nltk.org/)", "string", "numpy", "[sklearn](https://pypi.org/project/scikit-learn/)", "[pinyin](https://pypi.org/project/pinyin/)", "[argparse](https://docs.python.org/3/howto/argparse.html)", "[metapy](https://github.com/meta-toolkit/metapy)"_.
+      (Again, you can use methods such as `pip install pinyin`)
+   
+   3. Go to ForeignNameRecommender repository in terminal. Then run:
+   
+      `python3 projectWithMeaning.py meaningFunctions.py smallHelperFunctions.py bagOfWordsFunctions.py`
+      
+      (If do not have python3, python might also work)
+   
+   Note: if it shows error such as "haven't found module XXX", then it might be possible that we forgot to mention this package. Please install XXX package as well.
+   
+  
+## Overview of the functions
   This program support two functions, one is recommending foreign names that most closely matches the spelling of the input name and the other one is recommmending foreign names that have similar meanings to the input name. This project currently support two languages, Chinese and English. It asks user for an input name and gender and how many names he/she wants to be generated, then it recommends a number of names in which their meanings have the highest similarity with the input name.
    It's more challenging than we thought before to obtain data of name lists. We wrote a lot of programs to parse and refine the found data into the clean and formatted data for our needs. Other languages might be added to our system in the future.
 
@@ -33,7 +47,7 @@ The main 4 files are (we list the require packages after the files):
   
   - We tried two methods to calculate the similarity (or distance) between names. One using "difflib", the other using "Levenshtein Algorithm" (or "Levenshtein Distance"). Finally we chose the latter since it works better at matching.
   
-  ## 2. By semantic similarity
+  ### 2. By semantic similarity
   - Our recommender could also generate names by similarity of meanings of two name, which might be more useful for users. _For example, for a Chinese name "李迅", the first name "迅" means "fast" in Chinese. Our system would recommend the following (we also output their meanings):_
   
     _Name: 'Dashee'; meaning is:'One who is on fast'_
@@ -58,18 +72,6 @@ The main 4 files are (we list the require packages after the files):
   
   For more details on this project please refer to this video: https://youtu.be/Y8Hzic45gdo
   
-  ## Usage Instructions:
-   1. Install below packages: _"colorama", "Levenshtein", "nltk", "string", "numpy", "sklearn", "pinyin", "argparse", "metapy"_.
-      (Again, you can use methods such as `pip install pinyin`)
-   2. Download ForeignNameRecommender project.
-   
-   3. Go to ForeignNameRecommender repository in terminal. Then run:
-   
-      `python3 projectWithMeaning.py meaningFunctions.py smallHelperFunctions.py bagOfWordsFunctions.py`
-      
-      (If do not have python3, python might also work)
-   
-   Note: if it shows error such as "haven't found module XXX", then it might be possible that we forgot to mention this package. Please install XXX package as well.
   
   All rights reserved by Xiaomin Li (xiaomin3@illinois.edu) and Jinyuan Li (jinyuan2@illinois.edu).
   😄
