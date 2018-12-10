@@ -6,7 +6,7 @@ Download the project folder to your working directory.
 
 The main 4 files are (we list the require packages after the files): 
   
-  _projectWithMeaning.py (requires: "colorama", and "Levenshtein")_
+  _projectWithMeaning.py (requires: "[colorama](https://pypi.org/project/colorama/)", and "[Levenshtein](https://pypi.org/project/python-Levenshtein/)")_
   
   _meaningFunctions.py ("nltk", "string", "numpy", and "sklearn")_
   
