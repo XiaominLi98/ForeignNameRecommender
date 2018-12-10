@@ -72,6 +72,7 @@ A name generator which recommends foreign names in different languages.
   
   For more details on this project please refer to this video: https://youtu.be/Y8Hzic45gdo
   
-  
+## Contribution of each team member
+
   All rights reserved by Xiaomin Li (xiaomin3@illinois.edu) and Jinyuan Li (jinyuan2@illinois.edu).
   😄
