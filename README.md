@@ -52,12 +52,14 @@ The main 4 files are (we list the require packages after the files):
   For more details on this project please refer to this video: https://youtu.be/Y8Hzic45gdo
   
   ## Usage Instructions:
-   1. Install below packages: "colorama", "Levenshtein", "nltk", "string", "numpy", "sklearn", "pinyin", "argparse", "metapy".
+   1. Install below packages: _"colorama", "Levenshtein", "nltk", "string", "numpy", "sklearn", "pinyin", "argparse", "metapy"_.
       (Again, you can use methods such as `pip install pinyin`)
    2. Download ForeignNameRecommender project.
    
    3. Go to ForeignNameRecommender repository in terminal. Then run:
+   
       `python3 projectWithMeaning.py meaningFunctions.py smallHelperFunctions.py bagOfWordsFunctions.py`
+      
       (If do not have python3, python might also work)
    Note: if it shows error such as "haven't found module XXX", then it might be possible that we forgot to mention this package. Please install XXX package as well.
   
