@@ -73,7 +73,8 @@ A name generator which recommends foreign names in different languages.
   For more details on this project please refer to this video: https://youtu.be/Y8Hzic45gdo
   
 ## Contribution of each team member
-  We split the tasks of the project and each team member did approximately equal amount of work. I (Jinyuan) did web scraping to find a large amount of Chinese and English names as our database, and Xiaomin and I together processed and cleaned the dataset. We worked together to search for methods of measuring the similarity of words, and Xiaomin coded the idea mostly. Xiaomin shot the [tutorial](https://youtu.be/Y8Hzic45gdo) (video demo) of this project, while I worked on writing the documentation of the project. And we wrote the tech review essay together. 
+Team members: Jinyuan Li, Xiaomin Li
+  We split the tasks of the project and each team member did approximately equal amount of work. I (Jinyuan) did web scraping to find a large amount of Chinese and English names need as our database. Xiaomin and I together processed and cleaned the dataset. We worked together to search for methods of measuring the similarity of words, and Xiaomin coded the idea mostly. We discussed about how to deliver the tutorial and what to explain. I made a powerpoint to use in the tutorial, and Xiaomin shot the [tutorial](https://youtu.be/Y8Hzic45gdo) (video demo) of this project. Xiaomin and I worked on editing this documentation together. And we did researches for the tech review topic and wrote the tech review essay together. 
   
   All rights reserved by Xiaomin Li (xiaomin3@illinois.edu) and Jinyuan Li (jinyuan2@illinois.edu).
   😄
