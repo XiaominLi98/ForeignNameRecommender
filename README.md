@@ -70,7 +70,7 @@ A name generator which recommends foreign names in different languages.
    
    - We used three types of method trying to calculate the similarity of semantic meaning of two sentences (or words), and they are “sklearn”, “spacy”, and “gensim”. Finally we chose the “cosine_sim” function in “sklearn” using “TfidfVectorizer” method in “sklearn.feature_extraction.text”. 
   
-  For more details on this project please refer to this video: https://youtu.be/7it9x7_WesE
+  For more details on this project please refer to this video: https://youtu.be/ZadRRnv9Kso
   
   All rights reserved by Xiaomin Li (xiaomin3@illinois.edu) and Jinyuan Li (jinyuan2@illinois.edu).
   😄
